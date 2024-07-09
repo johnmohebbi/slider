@@ -1,0 +1,27 @@
+.swiper_Container {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  width: 100%;
+}
+
+.dots {
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #111111b1;
+  transform: translate(-50%);
+  margin: 0 4px;
+  transition: width 0.2s ease-in-out;
+  cursor: pointer;
+}
+.active_slide {
+  width: 16px;
+  background-color: white;
+  margin: 0 4px;
+}
+
